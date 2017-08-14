@@ -17,8 +17,8 @@ public class Customer extends Transactee {
         this.customerID = customerID;
     }
 
-    public void addAccount( Account account ){
-        this.accounts.put( account.getType(), account );
+    public int getCustomerID(){
+        return this.customerID;
     }
 
     public void receiveProduct( Product product, AccountType accountType ) {
@@ -31,10 +31,5 @@ public class Customer extends Transactee {
         this.accounts.get( accountType ).credit( product.getRetailPrice() );
         return fetchProduct;
     }
-
-    public Boolean productInStore( Product product ) {
-        return this.productList.productInStore( product );
-    }
-
 
 }

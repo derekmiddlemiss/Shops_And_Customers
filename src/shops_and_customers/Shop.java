@@ -15,10 +15,16 @@ public class Shop extends Transactee {
                 name
         );
         this.shopID = shopID;
+        Account current = new Account( AccountType.CURRENT, "Shop current account", 500.00, -1000.0);
+        this.addAccount( current );
+        Account refunds = new Account( AccountType.REFUNDS, "Shop refunds total", 0.00, -1000.0);
+        this.addAccount( refunds );
+        Account sales = new Account( AccountType.SALES, "Shop sales total", 0.00, -1000.0);
+        this.addAccount( sales );
     }
 
-    public void addAccount( Account account ){
-        this.accounts.put( account.getType(), account );
+    public int getShopID(){
+        return this.shopID;
     }
 
     public void receiveProduct( Product product, AccountType accountType ) {

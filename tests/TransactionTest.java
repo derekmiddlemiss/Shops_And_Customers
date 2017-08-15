@@ -15,6 +15,13 @@ public class TransactionTest {
     private Account creditCard;
     private Product lotr;
 
+    private int transactionID;
+    Transactee vendor;
+    AccountType vendorAccount;
+    Transactee receiver;
+    AccountType receiverAccount;
+    Product product;
+
     @Before
     public void before(){
         frank = new Customer(
@@ -44,22 +51,54 @@ public class TransactionTest {
     }
 
     @Test
-    public void testTransaction(){
+    public void testTransaction__lotrToFrank(){
         assertFalse( frank.productInStore( lotr ) );
         assertTrue( bookShop.productInStore( lotr ) );
         assertEquals( 491.01, bookShop.getBalance( AccountType.CURRENT ), 0.001 );
-        Transaction lotrToFrank = new Transaction(
-                1,
-                bookShop,
-                null,
-                frank,
-                AccountType.CREDITCARD,
-                lotr
-                );
+
+        transactionID = 1;
+        vendor = bookShop;
+        vendorAccount = null;
+        receiver = frank;
+        receiverAccount = AccountType.CREDITCARD;
+        product = lotr;
+        Transaction lotrToFrank = new Transaction( transactionID, vendor, vendorAccount, receiver, receiverAccount, product );
+
         assertEquals( -12.99, frank.getBalance( AccountType.CREDITCARD ), 0.001 );
         assertEquals( 12.99, bookShop.getBalance( AccountType.SALES ), 0.001 );
+        assertEquals( 0.00, bookShop.getBalance( AccountType.REFUNDS ), 0.001 );
         assertTrue( frank.productInStore( lotr ) );
         assertFalse( bookShop.productInStore( lotr ) );
+    }
+
+    @Test
+    public void testTransaction__lotrToFrank__lotrToShop(){
+        assertFalse( frank.productInStore( lotr ) );
+        assertTrue( bookShop.productInStore( lotr ) );
+        assertEquals( 491.01, bookShop.getBalance( AccountType.CURRENT ), 0.001 );
+
+        transactionID = 1;
+        vendor = bookShop;
+        vendorAccount = AccountType.SALES;
+        receiver = frank;
+        receiverAccount = AccountType.CREDITCARD;
+        product = lotr;
+        Transaction lotrToFrank = new Transaction( transactionID, vendor, vendorAccount, receiver, receiverAccount, product );
+
+        transactionID = 2;
+        vendor = frank;
+        vendorAccount = AccountType.CREDITCARD;
+        receiver = bookShop;
+        receiverAccount = AccountType.REFUNDS;
+        product = lotr;
+        Transaction lotrToShop = new Transaction( transactionID, vendor, vendorAccount, receiver, receiverAccount, product );
+
+        assertEquals( 0.00, frank.getBalance( AccountType.CREDITCARD ), 0.001 );
+        assertEquals( 12.99, bookShop.getBalance( AccountType.SALES ), 0.001 );
+        assertEquals( -12.99, bookShop.getBalance( AccountType.REFUNDS ), 0.001 );
+
+        assertFalse( frank.productInStore( lotr ) );
+        assertTrue( bookShop.productInStore( lotr ) );
     }
 
 }

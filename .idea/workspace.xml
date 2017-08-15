@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8652aa7-7866-42f7-af2b-77104a5636b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shops_and_customers/Customer.java" afterPath="$PROJECT_DIR$/src/shops_and_customers/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shops_and_customers/Shop.java" afterPath="$PROJECT_DIR$/src/shops_and_customers/Shop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shops_and_customers/Transactee.java" afterPath="$PROJECT_DIR$/src/shops_and_customers/Transactee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shops_and_customers/Account.java" afterPath="$PROJECT_DIR$/src/shops_and_customers/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TransactionTest.java" afterPath="$PROJECT_DIR$/tests/TransactionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +62,7 @@
       <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="-16">
               <caret line="17" column="87" lean-forward="false" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
               <folding />
             </state>
@@ -80,11 +79,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TransactionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/TransactionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="148">
+              <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +107,8 @@
       <file leaf-file-name="Transactee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Transactee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+            <state relative-caret-position="720">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#742#743#0" expanded="true" />
                 <element signature="e#782#783#0" expanded="true" />
@@ -113,58 +125,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ProductList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shops_and_customers/ProductList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shops_and_customers/AccountType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/ProductTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#1348#1349#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -195,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/shops_and_customers/TransacteeType.java" />
         <option value="$PROJECT_DIR$/src/shops_and_customers/AccountType.java" />
         <option value="$PROJECT_DIR$/src/shops_and_customers/Product.java" />
-        <option value="$PROJECT_DIR$/src/shops_and_customers/Account.java" />
         <option value="$PROJECT_DIR$/tests/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/shops_and_customers/ProductList.java" />
         <option value="$PROJECT_DIR$/tests/ProductListTest.java" />
@@ -206,12 +191,13 @@
         <option value="$PROJECT_DIR$/src/shops_and_customers/Transactee.java" />
         <option value="$PROJECT_DIR$/src/shops_and_customers/Transaction.java" />
         <option value="$PROJECT_DIR$/tests/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/shops_and_customers/Account.java" />
         <option value="$PROJECT_DIR$/tests/TransactionTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
+    <option name="x" value="38" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="733" />
@@ -282,47 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionTest.testTransaction">
-    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ShopsAndCustomers" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ShopsAndCustomers" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TransactionTest">
     <configuration name="ShopTest.testHasAccountType__False" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ShopsAndCustomers" />
@@ -343,15 +289,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShopTest.testRestockProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ShopsAndCustomers" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="testRestockProduct" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="TransactionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -371,6 +317,46 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TransactionTest" />
       <option name="METHOD_NAME" value="testTransaction" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TransactionTest.testTransaction__lotrToFrank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ShopsAndCustomers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransactionTest" />
+      <option name="METHOD_NAME" value="testTransaction__lotrToFrank" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TransactionTest.testTransaction__lotrToFrank__lotrToShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ShopsAndCustomers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransactionTest" />
+      <option name="METHOD_NAME" value="testTransaction__lotrToFrank__lotrToShop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -465,19 +451,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.testRestockProduct" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.testHasAccountType__False" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.testHasAccountType__False" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction__lotrToFrank" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction__lotrToFrank__lotrToShop" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.testHasAccountType__False" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.testRestockProduct" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction__lotrToFrank__lotrToShop" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction__lotrToFrank" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TransactionTest.testTransaction" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.testHasAccountType__False" />
       </list>
     </recent_temporary>
   </component>
@@ -495,23 +481,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest - 2017.08.15 at 00h 01m 04s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest - 2017.08.15 at 00h 14m 18s.xml">
-      <configuration name="ShopTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest_testHasAccountType__False - 2017.08.15 at 00h 19m 27s.xml">
-      <configuration name="ShopTest.testHasAccountType__False" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest_testRestockProduct - 2017.08.15 at 00h 18m 16s.xml">
-      <configuration name="ShopTest.testRestockProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest_testTransaction - 2017.08.15 at 00h 50m 51s.xml">
-      <configuration name="TransactionTest.testTransaction" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest_testTransaction - 2017.08.15 at 00h 52m 15s.xml">
-      <configuration name="TransactionTest.testTransaction" configurationId="JUnit" />
+    <history-entry file="TransactionTest - 2017.08.15 at 10h 24m 26s.xml">
+      <configuration name="TransactionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TransactionTest_testTransaction - 2017.08.15 at 00h 52m 59s.xml">
       <configuration name="TransactionTest.testTransaction" configurationId="JUnit" />
@@ -525,9 +496,24 @@
     <history-entry file="TransactionTest_testTransaction - 2017.08.15 at 00h 59m 08s.xml">
       <configuration name="TransactionTest.testTransaction" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionTest_testTransaction__lotrToFrank - 2017.08.15 at 09h 20m 06s.xml">
+      <configuration name="TransactionTest.testTransaction__lotrToFrank" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTest_testTransaction__lotrToFrank - 2017.08.15 at 09h 22m 36s.xml">
+      <configuration name="TransactionTest.testTransaction__lotrToFrank" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTest_testTransaction__lotrToFrank__lotrToShop - 2017.08.15 at 09h 25m 52s.xml">
+      <configuration name="TransactionTest.testTransaction__lotrToFrank__lotrToShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTest_testTransaction__lotrToFrank__lotrToShop - 2017.08.15 at 09h 39m 17s.xml">
+      <configuration name="TransactionTest.testTransaction__lotrToFrank__lotrToShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTest_testTransaction__lotrToFrank__lotrToShop - 2017.08.15 at 09h 39m 33s.xml">
+      <configuration name="TransactionTest.testTransaction__lotrToFrank__lotrToShop" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="23" width="1260" height="733" extended-state="0" />
+    <frame x="38" y="23" width="1260" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -586,35 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/TransacteeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/AccountType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/ProductList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/ProductListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1111">
@@ -659,49 +616,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Transactee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
-          <folding>
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="-16">
           <caret line="17" column="87" lean-forward="false" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
           <folding />
         </state>
@@ -761,10 +680,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/TransacteeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Transactee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/ProductList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shops_and_customers/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/TransactionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="148">
+          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
